@@ -22,7 +22,9 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
-  }}
+  }
+  Serial.println("\nConectado!\n\n");
+}
 
 void loop() {
   // put your main code here, to run repeatedly:
